@@ -5,5 +5,5 @@
  <Description>Movie Search</Description>
  <Tags>Movie Search</Tags>
  <Url type="text/html"
-      template="http://www.google.com/search?q=site:movie-search.github.io {searchTerms}"/>
+      template="https://movie-search.github.io/#gsc.tab=0&gsc.q={searchTerms}"/>
 </OpenSearchDescription>
