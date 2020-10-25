@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Web Search</ShortName>
-  <Description>Use Example.com to search the Web.</Description>
-  <Tags>example web</Tags>
-  <Contact>admin@example.com</Contact>
+  <ShortName>Movie Search</ShortName>
+  <Description>Movie Search</Description>
+  <Tags>Movie Search</Tags>
+  <Contact>hi-creator@tutanota.com</Contact>
   <Url type="application/rss+xml"
-       template="http://example.com/?q={searchTerms}&amp;pw={startPage?}&amp;format=rss"/>
+       template="https://movie-search.github.io/index.html#gsc.tab=0&gsc.sort=&gsc.q={searchTerms}"/>
 </OpenSearchDescription>
