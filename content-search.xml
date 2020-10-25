@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Movie Search</ShortName>
-  <Description>Movie Search</Description>
-  <Tags>Movie Search</Tags>
-  <Contact>hi-creator@tutanota.com</Contact>
-  <Url type="application/rss+xml"
-       template="https://movie-search.github.io/index.html#gsc.tab=0&gsc.sort=&gsc.q={searchTerms}"/>
-</OpenSearchDescription>
+<CustomSearchEngine id="f03a74e24a065bc8c" creator="006562710002314549068" language="en" encoding="UTF-8" cx_id="f03a74e24a065bc8c" last_update_time_millis="1603581129993" autocompletions="true">
+  <Title>Movie Search</Title>
+  <Context>
+    <BackgroundLabels>
+      <Label name="_include_" mode="FILTER"/>
+      <Label name="_exclude_" mode="ELIMINATE"/>
+    </BackgroundLabels>
+  </Context>
+  <LookAndFeel code="4" element_layout="8" theme="7" url_length="full" enable_cse_thumbnail="true" promotion_url_length="full" font="2">
+    <Logo/>
+    <Colors/>
+    <Promotions/>
+    <SearchControls/>
+    <Results/>
+  </LookAndFeel>
+  <ImageSearchSettings layout="2"/>
+  <sort_by_keys label="Relevance" key=""/>
+  <sort_by_keys label="Date" key="date"/>
+  <cse_advance_settings>
+    <web_search_options enable_history="true">
+      <search_restrict_args gl="ir"/>
+    </web_search_options>
+    <image_advanced_options>
+      <search_restrict_args gl="ir"/>
+    </image_advanced_options>
+  </cse_advance_settings>
+</CustomSearchEngine>
