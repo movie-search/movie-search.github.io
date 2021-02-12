@@ -1,6 +1,11 @@
-body{
- background-image: linear-gradient(white, green);
+html {
+    min-height: 100%;
 }
+
+body {
+    background: linear-gradient(#ff7241, #ff4a1f);
+}
+
 .link a{
 float: right;
 font-size: 150%;
